@@ -1,13 +1,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 h1 {
     font-size: 50px;
 }
 
-section {
+.h2 {
+    background-color: rgb(248, 64, 8);
+    color: white;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -31,12 +37,45 @@ section {
 }
 
 .uporer-part {
-    background-image: url(./top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .middle-part {
-    background-image: url(./dream-bg.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.link-Button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(145, 33, 5), rgb(241, 77, 12));
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+
+.exp-div {
+    width: 45%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(241, 93, 7);
+
+}
+
+.last-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-div2 {
+    border-left: 5px solid blue;
+}
+
+footer {
+    text-align: center;
 }
